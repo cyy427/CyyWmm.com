@@ -1,17 +1,14 @@
-#Hexo-Theme-Huxblog
+#A Blog based on Hux Blog
 
-> Ported Theme of [Hux Blog](https://github.com/Huxpro/huxpro.github.io), Thank [Huxpro](https://github.com/Huxpro) for designing such a flawless theme.
-
-###[Demo &rarr;](http://kaijun.rocks/hexo-theme-huxblog/)
+> Forked from [Hux Blog](https://github.com/Huxpro/huxpro.github.io), Thank [Huxpro](https://github.com/Huxpro) for designing such a flawless theme.
 
 
 ![](http://huangxuan.me/img/blog-desktop.jpg)
 
-## Usage
+## Change log
 
-I didn't publish it as a single theme folder because a few of the pages are added and modified manually, so you should manually create some extra folders in `scaffolds` for the new pages and modify the `_config.yml` if you only have the single theme folder.
-
-So i just pushed the whole hexo project for your convenience, all pre settings and boilerplates are included, have a look and go ahead customizing your own blog!
+- Remove comment plugins
+- Remove Baidu statistic
 
 ##### 1.Init
 
@@ -40,6 +37,3 @@ hexo new post IMAPOST
 hexo serve // run hexo in local environment
 hexo clean && hexo deploy // hexo will push the static files automatically into the specifig branch(gh-pages) of your repo!
 ```
-
-##### 4.Enjoy! 
-Please [**Star**](https://github.com/kaijun/hexo-theme-huxblog/stargazers) this Project if you like it! [**Following**](https://github.com/Kaijun) would also be appreciated!
